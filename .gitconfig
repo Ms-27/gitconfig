@@ -1,0 +1,2 @@
+[alias]
+    lazy = "!f() { git add . && git commit -m \"$@\" && git push; }; f"
